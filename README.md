@@ -1,2 +1,2 @@
-# js_live2d
+# live2d
 看板

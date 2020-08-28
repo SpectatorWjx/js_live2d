@@ -1,0 +1,57 @@
+{
+	"version":"Sample 1.0.0",
+	"model": "Nindi.moc",
+	"textures": [
+		"Nindi.2048/texture_00.png"
+	],
+	"motions":{
+		"idle":[
+			{"file":"motions/idle.mtn"},
+			{"file":"motions/1.mtn"},
+			{"file":"motions/1_JP.mtn"},
+			{"file":"motions/2.mtn"},
+			{"file":"motions/2_JP.mtn"},
+			{"file":"motions/3.mtn"},
+			{"file":"motions/3_JP.mtn"},
+			{"file":"motions/4.mtn"},
+			{"file":"motions/4_JP.mtn"},
+			{"file":"motions/5.mtn"},
+			{"file":"motions/5_JP.mtn"},
+			{"file":"motions/6.mtn"},
+			{"file":"motions/6_JP.mtn"},
+			{"file":"motions/7.mtn"},
+			{"file":"motions/7_JP.mtn"}
+		]
+	},
+	"physics":"physics.json",
+	"project_settings":"embed://111.json",
+	"layout":
+	{
+		"center_x":0.0,
+		"center_y":-0.7,
+		"width":1.8
+	},
+	"hit_areas_custom":{
+		"head_x":[-0.35, 0.6],
+		"head_y":[0.19, -0.2],
+		"body_x":[-0.3, -0.25],
+		"body_y":[0.3, -0.9]
+	},
+	"motion_settings":
+	{
+		"idle":{"cd":20},
+		"morning":{"cd":3600},
+		"afternoon":{"cd":3600},
+		"evening":{"cd":3600},
+		"activity":{"cd":3600},
+		"friend":{"cd":18000},
+		"mail":{"cd":18000},
+		"tap_breast":{"cd":10},
+		"tap_belly":{"cd":10},
+		"tap_leg":{"cd":10},
+		"tap_face":{"cd":10},
+		"flick_head":{"cd":20},
+		"shake":{"cd":60},
+		"born":{"cd":60}
+	}
+}

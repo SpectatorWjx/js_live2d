@@ -1,0 +1,24 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "model",
+	"model": "model.moc",
+	"textures": [
+		"model.2048/texture_00.png"
+	],
+	"hit_areas_custom":{
+		"head_x":[-0.35, 0.6],
+		"head_y":[0.19, -0.2],
+		"body_x":[-1.0, 1.0],
+		"body_y":[1.0, -1.0]
+	},
+	"motions":{
+		"idle":[
+			{"file":"motions/Idle.mtn"},
+            {"file":"motions/Nemui.mtn"},
+			{"file":"motions/Anone_Synced.mtn"}
+		],
+		"tap_body":[
+			{"file":"motions/Dance.mtn"}
+		]
+	}
+}
